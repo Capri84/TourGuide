@@ -1,0 +1,143 @@
+<resources>
+    <string name="app_name">Tour Guide</string>
+    <string name="btn_share">Share</string>
+
+    <!-- List of Quizzes -->
+    <string name="club_60_sec">Intellectual club \"60 seconds\"</string>
+    <string name="mozgoboinya">The \"BrainStorm\" game</string>
+    <string name="mozgva">Intellectual bar-olympiad \"Mozgva\"</string>
+    <string name="quizium">Intellectual club \"Quizium\"</string>
+    <string name="mozgoboy">Intellectual battle \"BrainBoy\"</string>
+    <string name="quiz_please">Bar-quiz \"Quiz, please!\"</string>
+    <string name="izvilium">The \"Izvilium\" game</string>
+    <string name="reasonable_people">The \"Reasonable people\" quiz</string>
+
+    <!-- List of Quests -->
+    <string name="divergent">The Divergent</string>
+    <string name="superhero">Superhero headquarters</string>
+    <string name="houdini">Houdini Academy</string>
+    <string name="pharao">7 Pharaoh\'s puzzles</string>
+    <string name="one_way_ticket">One way ticket</string>
+    <string name="mib">Men in Black: The Turmoil in Chinatown</string>
+    <string name="addams_family">The Addams family</string>
+    <string name="breaking_bad">The Breaking Bad</string>
+
+    <!-- List of Museums -->
+    <string name="tretyakov_gallery">The Tretyakov Gallery</string>
+    <string name="history_museum">State Historical Museum</string>
+    <string name="pushkin_museum">The A.S. Pushkin\'s State Museum of Fine Arts.</string>
+    <string name="basil_cathedral">St. Basil\'s Cathedral</string>
+    <string name="kremlin">The Kremlin</string>
+    <string name="diamond_fund">The Diamond Fund of Russia</string>
+    <string name="polytechnical_museum">Polytechnical Museum</string>
+    <string name="cosmonautics_museum">Memorial Museum of Cosmonautics</string>
+
+    <!-- List of Theaters -->
+    <string name="bolshoy_theater">The Bolshoy Theater</string>
+    <string name="maliy_theater">The Maliy Theater</string>
+    <string name="sovremennik_theater">The Sovremennik Theater</string>
+    <string name="lenkom_theater">The Lenkom Theater</string>
+    <string name="satiry_theater">The Theater of Satire</string>
+    <string name="mossoveta_theater">The Mossovet\' Theater</string>
+    <string name="mayakovsky_theater">The Mayakovsky Theater</string>
+    <string name="vakhtangova_theater">The Vakhtangov\'s Theater</string>
+
+    <!-- TabNames -->
+    <string name="quizzes">Quizzes</string>
+    <string name="quests">Quests</string>
+    <string name="museums">Museums</string>
+    <string name="theaters">Theaters</string>
+
+    <!-- Quizzes info -->
+    <string-array name="quizzes_info">
+        <item>Club \"60 seconds\".\nAnyone can become a connoisseur!\n
+            The largest offline community of fans of intellectual games in Russia and the CIS.\n
+        We gather in cafes and restaurants, playing the most exciting game \"60 seconds\":
+            \nteams of 6 people within a minute find the answer to a difficult, as it might seem,
+            \nquestion. In fact, this is a logical mystery - and to become a real connoisseur of our club,
+            \nit is not necessary to be the owner of encyclopaedic knowledge and supernatural abilities.
+            \nThe recipe for success is simple: to the basic school knowledge, you need to add
+            \na little logic, a sense of humor and fantasy - and the question is "taken"!</item>
+        <item>The game \"BrainBoy\" is a new format of recreation with friends. In a cheerful
+            \nand relaxed atmosphere for food and drinks, you answer interesting questions,
+            \nand the winners receive excellent prizes. Anyone can distinguish themselves
+            \nby intelligence and ingenuity.</item>
+        <item>The intellectual bar-olympiad \"Mozgva\" is a game of questions and answers.
+            \nYes, that's that simple. And there you yourself choose: fun and relaxed to spend
+            \nthe evening with friends or desperately chase the team's ratings and fight for
+            \nleadership in the Champions League \"Brain\".</item>
+        <item>TEAM PLAY, TO WIN INTO THAT HELP EDUCATION, LOGIC AND CONCURRENCE. "Quiz, Pliz!" - A GOOD WAY TO HAVE AN EVENING EVENING WITH FRIENDS IN A COZY BAR AND GET NEW POSITIVE IMPRESSIONS.</item>
+    </string-array>
+
+    <!-- Quizzes phones -->
+    <string-array name="quizzes_phones">
+        <item>+79651513601</item> <!-- 60sec -->
+        <item>+74956646953</item> <!-- mozgoboynia -->
+        <item>+74956445272</item> <!-- mozgva -->
+        <item>+79167069247</item> <!-- quizium -->
+        <item>+79689514363</item> <!-- mozgoboy -->
+        <item>+74959467849</item> <!-- quizplease -->
+        <item>+79639655599</item> <!-- izvilium -->
+        <item>+79037384323</item> <!-- reasonable people -->
+    </string-array>
+
+    <!-- Quizzes addresses: latitudes -->
+    <string-array name="quizzes_latitudes">
+        <item>55.7374228</item> <!-- 60sec -->
+        <item>55.7684939</item> <!-- mozgoboynia -->
+        <item>55.777766</item> <!-- mozgva -->
+        <item>55.762266</item> <!-- quizium -->
+        <item>55.778186</item> <!-- mozgoboy -->
+        <item>55.760141</item> <!-- quizplease -->
+        <item>55.7365029</item> <!-- izvilium -->
+        <item>55.7684939</item> <!-- reasonable people -->
+    </string-array>
+
+    <!-- Quizzes addresses: longitudes -->
+    <string-array name="quizzes_longitudes">
+        <item>37.6580966</item> <!-- 60sec -->
+        <item>37.5934717</item> <!-- mozgoboynia -->
+        <item>37.5803899</item> <!-- mozgva -->
+        <item>37.613543</item> <!-- quizium -->
+        <item>37.584689</item> <!-- mozgoboy -->
+        <item>37.583055</item> <!-- quizplease -->
+        <item>37.596374</item> <!-- izvilium -->
+        <item>37.5934717</item> <!-- reasonable people -->
+    </string-array>
+
+    <!-- Quizzes map labels -->
+    <string-array name="quizzes_labels">
+        <item>\"60 seconds\" club</item>
+        <item>The \"BrainStorm\"</item>
+        <item>Bar-olympiad \"Mozgva\"</item>
+        <item>\"Quizium\" club</item>
+        <item>\"BrainBoy\"</item>
+        <item>\"Quiz, please!\"</item>
+        <item>\"Izvilium\"</item>
+        <item>The \"Reasonable people\" quiz</item>
+    </string-array>
+
+    <!-- Quizzes sites -->
+    <string-array name="quizzes_sites">
+        <item>http://www.club60sec.ru/</item>
+        <item>https://vk.com/mozgoboj_msk</item>
+        <item>http://mozgva.com/</item>
+        <item>https://quizium.ru/</item>
+        <item>http://www.mozgoboy.ru/</item>
+        <item>https://quizplease.ru/</item>
+        <item>http://izvilium.ru/</item>
+        <item>http://clubrazum.ru/</item>
+    </string-array>
+
+    <!-- Quizzes photo id -->
+    <array name="photo_id">
+        <item>@drawable/club60secs_1</item>
+        <item>@drawable/mozgoboynya_1</item>
+        <item>@drawable/mozgva_1</item>
+        <item>@drawable/quizium_1</item>
+        <item>@drawable/mozgoboy_1</item>
+        <item>@drawable/quiz_please_1</item>
+        <item>@drawable/izvilium_1</item>
+        <item>@drawable/reasonable_people_1</item>
+    </array>
+</resources>
