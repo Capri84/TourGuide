@@ -12,6 +12,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 public class PagerAdapter extends FragmentPagerAdapter{
 
     private Context context;
+    //  public static int currentPage;
 
     public PagerAdapter(FragmentManager fm, Context context) {
         super(fm);
@@ -20,6 +21,7 @@ public class PagerAdapter extends FragmentPagerAdapter{
 
     @Override
     public Fragment getItem(int position) {
+        //    currentPage = position;
         return PlaceFragment.newInstance(position);
     }
 

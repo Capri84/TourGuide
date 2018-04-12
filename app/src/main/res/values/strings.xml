@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Tour Guide</string>
     <string name="btn_share">Share</string>
+    <string name="popup_activity_label">About the place</string>
 
     <!-- List of Quizzes -->
     <string name="club_60_sec">Intellectual club \"60 seconds\"</string>
@@ -52,21 +53,34 @@
     <string-array name="quizzes_info">
         <item>Club \"60 seconds\".\nAnyone can become a connoisseur!\n
             The largest offline community of fans of intellectual games in Russia and the CIS.\n
-        We gather in cafes and restaurants, playing the most exciting game \"60 seconds\":
-            \nteams of 6 people within a minute find the answer to a difficult, as it might seem,
-            \nquestion. In fact, this is a logical mystery - and to become a real connoisseur of our club,
-            \nit is not necessary to be the owner of encyclopaedic knowledge and supernatural abilities.
-            \nThe recipe for success is simple: to the basic school knowledge, you need to add
-            \na little logic, a sense of humor and fantasy - and the question is "taken"!</item>
-        <item>The game \"BrainBoy\" is a new format of recreation with friends. In a cheerful
-            \nand relaxed atmosphere for food and drinks, you answer interesting questions,
-            \nand the winners receive excellent prizes. Anyone can distinguish themselves
-            \nby intelligence and ingenuity.</item>
+        We gather in cafes and restaurants, playing the most exciting game \"60 seconds\": teams of
+            6 people within a minute find the answer to a difficult, as it might seem, question.
+            In fact, this is a logical mystery - and to become a real connoisseur of our club,
+            it is not necessary to be the owner of encyclopaedic knowledge and supernatural abilities.
+            The recipe for success is simple: to the basic school knowledge, you need to add
+            a little logic, a sense of humor and fantasy - and the question is \"taken\"!</item>
+        <item>The \"BrainStorm\" is a bar intellectual game created for Moscow. \"BrainStorm\" is
+            an ideal option for you and your friends!</item>
         <item>The intellectual bar-olympiad \"Mozgva\" is a game of questions and answers.
-            \nYes, that's that simple. And there you yourself choose: fun and relaxed to spend
-            \nthe evening with friends or desperately chase the team's ratings and fight for
-            \nleadership in the Champions League \"Brain\".</item>
-        <item>TEAM PLAY, TO WIN INTO THAT HELP EDUCATION, LOGIC AND CONCURRENCE. "Quiz, Pliz!" - A GOOD WAY TO HAVE AN EVENING EVENING WITH FRIENDS IN A COZY BAR AND GET NEW POSITIVE IMPRESSIONS.</item>
+            Yes, that\'s that simple. And there you yourself choose: fun and relaxed to spend
+            the evening with friends or desperately chase the team\'s ratings and fight for
+            leadership in the Champions League \"Brain\".</item>
+        <item>\"Quizium\" is an intellectual game in the bar, as a fascinating format of evening leisure.
+            Answer interesting questions with your friends, rest and refresh your emotions!</item>
+        <item>The game \"BrainBoy\" is a new format of recreation with friends. In a cheerful
+            and relaxed atmosphere for food and drinks, you answer interesting questions,
+            and the winners receive excellent prizes. Anyone can distinguish themselves
+            by intelligence and ingenuity.</item>
+        <item>Team play, to win into that help education, logic and concurrence.
+            "Quiz, Please!" - a good way to have an evening with friends in a cozy bar and get new
+            positive impressions.</item>
+        <item>Do you have a team? Do you want to try your hand at intellectual games?
+Join \"Izvilium\" now!</item>
+        <item>Quiz \"Reasonable People\" is an exciting battle of intellects in the popular
+            worldwide Pub Quiz format. For each game, there are 20-25 teams of 3-8 players in each
+            and, answering the questions of the presenter, they are fighting for the victory.
+            Excitement reigns in the hearts of the participants, because the results of the game
+            can be absolutely unpredictable.</item>
     </string-array>
 
     <!-- Quizzes phones -->
@@ -130,7 +144,7 @@
     </string-array>
 
     <!-- Quizzes photo id -->
-    <array name="photo_id">
+    <integer-array name="place_photos">
         <item>@drawable/club60secs_1</item>
         <item>@drawable/mozgoboynya_1</item>
         <item>@drawable/mozgva_1</item>
@@ -139,5 +153,5 @@
         <item>@drawable/quiz_please_1</item>
         <item>@drawable/izvilium_1</item>
         <item>@drawable/reasonable_people_1</item>
-    </array>
+    </integer-array>
 </resources>

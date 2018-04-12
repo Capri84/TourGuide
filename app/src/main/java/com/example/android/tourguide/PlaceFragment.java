@@ -3,6 +3,7 @@ package com.example.android.tourguide;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -20,7 +21,7 @@ import java.util.ArrayList;
 public class PlaceFragment extends Fragment {
 
     public static final String PAGE = "PAGE";
-    public static int page;
+    private int page;
 
     public static PlaceFragment newInstance(int page) {
         Bundle bundle = new Bundle();
@@ -50,7 +51,6 @@ public class PlaceFragment extends Fragment {
         // use a linear layout manager
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getActivity());
         recyclerView.setLayoutManager(layoutManager);
-
         // specify an adapter (see also next example)
         PlaceAdapter adapter = new PlaceAdapter(getItemPlaceList(page));
         recyclerView = recyclerView.findViewById(R.id.list);

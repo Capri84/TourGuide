@@ -5,7 +5,9 @@ import android.content.res.Resources;
 import android.content.res.TypedArray;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.design.widget.TabLayout;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ImageView;
@@ -49,19 +51,12 @@ public class PlaceInfoActivity extends AppCompatActivity implements View.OnClick
         imgBtnSite.setOnClickListener(this);
         Intent placeInfoIntent = getIntent();
         position = placeInfoIntent.getIntExtra("position", -1);
-        setPlaceData(PlaceFragment.page);
+        setPlaceData();
     }
 
     private void fillArraysQuizzes() {
         Resources res = getResources();
-        pictures = res.obtainTypedArray(R.array.photo_id);
-       /* int n = pictures.length();
-        String[] placePicturesId = new String[n];
-        for (int i = 0; i < n; i++) {
-            int id = pictures.getResourceId(i, 0);
-            placePicturesId[i] = String.valueOf(res.getStringArray(id));
-        }*/
-        pictures.recycle();
+        pictures = res.obtainTypedArray(R.array.place_photos);
         placeInfo = new ArrayList<>(Arrays.asList(getResources().getStringArray(R.array.quizzes_info)));
         phone = new ArrayList<>(Arrays.asList(getResources().getStringArray(R.array.quizzes_phones)));
         latitudes = new ArrayList<>(Arrays.asList(getResources().getStringArray(R.array.quizzes_latitudes)));
@@ -70,17 +65,26 @@ public class PlaceInfoActivity extends AppCompatActivity implements View.OnClick
         labels = new ArrayList<>(Arrays.asList(getResources().getStringArray(R.array.quizzes_labels)));
     }
 
-    private void setPlaceData(int page) {
-        if (page == 0) {
+    private void setPlaceData() {
+        if (MainActivity.currentPage == 0) {
             fillArraysQuizzes();
             imgPlaceInfo.setImageResource(pictures.getResourceId(position, -1));
             tvPlaceAbout.setText(placeInfo.get(position));
         }
-        if (page == 1) {
+        if (MainActivity.currentPage == 1) {
+            fillArraysQuizzes();
+            imgPlaceInfo.setImageResource(R.drawable.ic_account_balance_wallet_blue_grey_700_24dp);
+            tvPlaceAbout.setText("Quests");
         }
-        if (page == 2) {
+        if (MainActivity.currentPage == 2) {
+            fillArraysQuizzes();
+            imgPlaceInfo.setImageResource(R.drawable.ic_tag_faces_blue_grey_700_24dp);
+            tvPlaceAbout.setText("Museums");
         }
-        if (page == 3) {
+        if (MainActivity.currentPage == 3) {
+            fillArraysQuizzes();
+            imgPlaceInfo.setImageResource(R.drawable.ic_launcher_background);
+            tvPlaceAbout.setText("Theaters");
         }
     }
 
