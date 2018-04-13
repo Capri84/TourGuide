@@ -154,4 +154,87 @@ Join \"Izvilium\" now!</item>
         <item>@drawable/izvilium_1</item>
         <item>@drawable/reasonable_people_1</item>
     </integer-array>
+
+    <!-- Quests info -->
+    <string-array name="quests_info">
+        <item>\"Divergent\" - a dynamic quest with elements of performance based on the eponymous
+            movie-anti-utopia. The team will have an interesting storyline with an unusual ending,
+            where players will have to decide which faction they belong to, having passed a series
+            of tests and complex obstacles.</item>
+        <item>\"Headquarters of superheroes\" - a heroic quest, where the team will help superheroes
+            save our planet from the danger of intergalactic scale!</item>
+
+    </string-array>
+
+    <!-- Quests phones -->
+    <string-array name="quests_phones">
+        <item>+79096552155</item> <!-- Divergent -->
+        <item>+74993933990</item> <!-- Superheroes -->
+        <item>+74956445272</item> <!-- mozgva -->
+        <item>+79167069247</item> <!-- quizium -->
+        <item>+79689514363</item> <!-- mozgoboy -->
+        <item>+74959467849</item> <!-- quizplease -->
+        <item>+79639655599</item> <!-- izvilium -->
+        <item>+79037384323</item> <!-- reasonable people -->
+    </string-array>
+
+    <!-- Quests addresses: latitudes -->
+    <string-array name="quests_latitudes">
+        <item>55.808881</item> <!-- Divergent -->
+        <item>55.701196</item> <!-- Superheroes -->
+        <item>55.777766</item> <!-- mozgva -->
+        <item>55.762266</item> <!-- quizium -->
+        <item>55.778186</item> <!-- mozgoboy -->
+        <item>55.760141</item> <!-- quizplease -->
+        <item>55.7365029</item> <!-- izvilium -->
+        <item>55.7684939</item> <!-- reasonable people -->
+    </string-array>
+
+    <!-- Quests addresses: longitudes -->
+    <string-array name="quests_longitudes">
+        <item>37.6538029</item> <!-- Divergent -->
+        <item>37.564033</item> <!-- Superheroes -->
+        <item>37.5803899</item> <!-- mozgva -->
+        <item>37.613543</item> <!-- quizium -->
+        <item>37.584689</item> <!-- mozgoboy -->
+        <item>37.583055</item> <!-- quizplease -->
+        <item>37.596374</item> <!-- izvilium -->
+        <item>37.5934717</item> <!-- reasonable people -->
+    </string-array>
+
+    <!-- Quests map labels -->
+    <string-array name="quests_labels">
+        <item>The \"Divergent\"</item>
+        <item>The \"Headquarters of superheroes\"</item>
+        <item>Bar-olympiad \"Mozgva\"</item>
+        <item>\"Quizium\" club</item>
+        <item>\"BrainBoy\"</item>
+        <item>\"Quiz, please!\"</item>
+        <item>\"Izvilium\"</item>
+        <item>The \"Reasonable people\" quiz</item>
+    </string-array>
+
+    <!-- Quests sites -->
+    <string-array name="quests_sites">
+        <item>https://qhero.ru/</item>
+        <item>https://kvestliga.ru/kvesti/shtab-supergeroev</item>
+        <item>http://mozgva.com/</item>
+        <item>https://quizium.ru/</item>
+        <item>http://www.mozgoboy.ru/</item>
+        <item>https://quizplease.ru/</item>
+        <item>http://izvilium.ru/</item>
+        <item>http://clubrazum.ru/</item>
+    </string-array>
+
+    <!-- Quests photo id -->
+    <integer-array name="quests_photos">
+        <item>@drawable/club60secs_1</item>
+        <item>@drawable/mozgoboynya_1</item>
+        <item>@drawable/mozgva_1</item>
+        <item>@drawable/quizium_1</item>
+        <item>@drawable/mozgoboy_1</item>
+        <item>@drawable/quiz_please_1</item>
+        <item>@drawable/izvilium_1</item>
+        <item>@drawable/reasonable_people_1</item>
+    </integer-array>
 </resources>
