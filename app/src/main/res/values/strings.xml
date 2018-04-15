@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Tour Guide</string>
+    <string name="app_name">Moscow intellectual</string>
     <string name="btn_share">Share</string>
     <string name="popup_activity_label">About the place</string>
 
@@ -144,7 +144,7 @@ Join \"Izvilium\" now!</item>
     </string-array>
 
     <!-- Quizzes photo id -->
-    <integer-array name="place_photos">
+    <integer-array name="quizzes_photos">
         <item>@drawable/club60secs_1</item>
         <item>@drawable/mozgoboynya_1</item>
         <item>@drawable/mozgva_1</item>
@@ -163,78 +163,122 @@ Join \"Izvilium\" now!</item>
             of tests and complex obstacles.</item>
         <item>\"Headquarters of superheroes\" - a heroic quest, where the team will help superheroes
             save our planet from the danger of intergalactic scale!</item>
-
+        <item>Harry Houdini is a famous magician and illusionist. He proved to the whole world that
+            he could get out of any shackles and get out of any locked room. Now the magician decided
+            to share his art and recruit students, among whom may be lucky enough to be you.
+            Are you ready to withstand the entrance examination at the Houdini Academy? In an hour
+            you need to make an escape worthy of the legendary master!</item>
+        <item>When a heavy door slams behind you, you will find yourself in the dark depths of history.
+            525 BC. Egypt, the last independent state of the ancient world, was conquered by the Persians.
+            Cambyses II, the son of Cyrus, has already described himself as a new pharaoh, but he
+            has no power over the wisdom of the conquered country, the priests have hidden
+            the Secret Chamber from the enemies. The Chamber of Secrets was the last exam in the way
+            of the priest to the highest rank - Ur, "high, sublime." Only one in a hundred passed
+            the test, which was to solve all the riddles, to find a way out of it.
+            This room was not only an incorruptible pass to the dignity of Ur, but also a treasure
+            trove of knowledge. Scrolls with prescription potions, drawings of unprecedented devices
+            would enrich anyone to whom they fell into the hands.
+            Cambyses II sent in search of Ur Rah, the Guardian of the Chamber of Secrets, the last
+            bearer of the rank, the hundred best warriors. The three most cunning ones hunted down
+            the priest on the threshold of the Secret Chamber and burst in after him, but
+            they could not get out.
+            And now, after thousands of years, the seekers of treasures and adventures accidentally
+            stepped outside its threshold. The door of the Secret Chamber slammed shut, and now,
+            to get out into the sunlight, you have to go through Ur and unravel all the riddles
+            of the pharaoh.</item>
+        <item>An unguided train with passengers rushes to meet the freight train with pesticides,
+            sweeping away everything in its path. Chemical catastrophe can not be avoided.
+            All forces are involved, all attempts to stop the locomotive are vain, there are
+            no plans for salvation.</item>
+        <item>Agency \"Men in Black\" has been guarding our planet for many years from an extraterrestrial
+            threat. Control of hundreds of thousands of aliens arriving on Earth and catching
+            especially dangerous alien criminals are the main tasks of the agency. Agents of special
+            services of the whole world dream of joining the ranks of people in black, but today
+            you were invited to an internship on a secret base. Are you ready to open the door
+            to the world of alien gadgets, use extraterrestrial technologies and solve crimes
+            of intergalactic scale? Remember, you will need to show your best qualities: logic,
+            accuracy, ingenuity and ability to work in a team.</item>
+        <item>By the nature of this house you can not tell who lives here - either millionaires,
+            or his masters are died. Although wait, now everything is clear - this is the house
+            of the eccentric Addams family! You\'d better get your legs out of here, otherwise you
+            risk becoming an object of inhuman abuse from restless children or get a scolding
+            from the head of the family who will be in a rage if he finds you among his family relics.
+            And you still do not know all the terrible secrets that keep these walls!</item>
+        <item>They say you need to observe decency, go to work, go home, wash dishes, caress a cat.
+            In general, to be a good person. To hell! It\'s time to break a string of dull days
+            and break free. Welcome to where you can relax from the pressure of public rules
+            and just be bad guys, going to all the hard.</item>
     </string-array>
 
     <!-- Quests phones -->
     <string-array name="quests_phones">
         <item>+79096552155</item> <!-- Divergent -->
         <item>+74993933990</item> <!-- Superheroes -->
-        <item>+74956445272</item> <!-- mozgva -->
-        <item>+79167069247</item> <!-- quizium -->
-        <item>+79689514363</item> <!-- mozgoboy -->
-        <item>+74959467849</item> <!-- quizplease -->
-        <item>+79639655599</item> <!-- izvilium -->
-        <item>+79037384323</item> <!-- reasonable people -->
+        <item>+79998128182</item> <!-- Houdini -->
+        <item>+74955653213</item> <!-- Pharao -->
+        <item>+74994091930</item> <!-- One-way-ticket -->
+        <item>+79779850080</item> <!-- MIB -->
+        <item>+74993503460</item> <!-- Addams family -->
+        <item>+74993224586</item> <!-- Breaking Bad -->
     </string-array>
 
     <!-- Quests addresses: latitudes -->
     <string-array name="quests_latitudes">
         <item>55.808881</item> <!-- Divergent -->
         <item>55.701196</item> <!-- Superheroes -->
-        <item>55.777766</item> <!-- mozgva -->
-        <item>55.762266</item> <!-- quizium -->
-        <item>55.778186</item> <!-- mozgoboy -->
-        <item>55.760141</item> <!-- quizplease -->
-        <item>55.7365029</item> <!-- izvilium -->
-        <item>55.7684939</item> <!-- reasonable people -->
+        <item>55.7715691</item> <!-- Houdini -->
+        <item>55.7904238</item> <!-- Pharao -->
+        <item>55.770723</item> <!-- One-way-ticket -->
+        <item>55.77476</item> <!-- MIB -->
+        <item>55.758824</item> <!-- Addams family -->
+        <item>55.722067</item> <!-- Breaking Bad -->
     </string-array>
 
     <!-- Quests addresses: longitudes -->
     <string-array name="quests_longitudes">
         <item>37.6538029</item> <!-- Divergent -->
         <item>37.564033</item> <!-- Superheroes -->
-        <item>37.5803899</item> <!-- mozgva -->
-        <item>37.613543</item> <!-- quizium -->
-        <item>37.584689</item> <!-- mozgoboy -->
-        <item>37.583055</item> <!-- quizplease -->
-        <item>37.596374</item> <!-- izvilium -->
-        <item>37.5934717</item> <!-- reasonable people -->
+        <item>37.5926979</item> <!-- Houdini -->
+        <item>37.6339932</item> <!-- Pharao -->
+        <item>37.584229</item> <!-- One-way-ticket -->
+        <item>37.669959</item> <!-- MIB -->
+        <item>37.6505789</item> <!-- Addams family -->
+        <item>37.627879</item> <!-- Breaking Bad -->
     </string-array>
 
     <!-- Quests map labels -->
     <string-array name="quests_labels">
         <item>The \"Divergent\"</item>
         <item>The \"Headquarters of superheroes\"</item>
-        <item>Bar-olympiad \"Mozgva\"</item>
-        <item>\"Quizium\" club</item>
-        <item>\"BrainBoy\"</item>
-        <item>\"Quiz, please!\"</item>
-        <item>\"Izvilium\"</item>
-        <item>The \"Reasonable people\" quiz</item>
+        <item>The \"Houdini Academy\"</item>
+        <item>The \"7 Pharaoh\'s puzzles\"</item>
+        <item>The \"One way ticket\"</item>
+        <item>The \"Men in Black: The Turmoil in Chinatown\"</item>
+        <item>The \"The Addams family\"</item>
+        <item>The \"Breaking Bad\"</item>
     </string-array>
 
     <!-- Quests sites -->
     <string-array name="quests_sites">
         <item>https://qhero.ru/</item>
         <item>https://kvestliga.ru/kvesti/shtab-supergeroev</item>
-        <item>http://mozgva.com/</item>
-        <item>https://quizium.ru/</item>
-        <item>http://www.mozgoboy.ru/</item>
-        <item>https://quizplease.ru/</item>
-        <item>http://izvilium.ru/</item>
-        <item>http://clubrazum.ru/</item>
+        <item>https://moscow.claustrophobia.com/ru/wow/gudini/</item>
+        <item>http://questreality.ru/quest/?q=egyptian</item>
+        <item>http://iqmania.ru/index.html</item>
+        <item>https://kvestliga.ru/kvesti/lyudi-v-chernom</item>
+        <item>https://questme.ru/ru/quest/semejka-addams/</item>
+        <item>https://moscow.claustrophobia.com/ru/wow/BreakingBad/</item>
     </string-array>
 
     <!-- Quests photo id -->
     <integer-array name="quests_photos">
-        <item>@drawable/club60secs_1</item>
-        <item>@drawable/mozgoboynya_1</item>
-        <item>@drawable/mozgva_1</item>
-        <item>@drawable/quizium_1</item>
-        <item>@drawable/mozgoboy_1</item>
-        <item>@drawable/quiz_please_1</item>
-        <item>@drawable/izvilium_1</item>
-        <item>@drawable/reasonable_people_1</item>
+        <item>@drawable/divergent_1</item>
+        <item>@drawable/superheroes_1</item>
+        <item>@drawable/houdini_1</item>
+        <item>@drawable/pharao_1</item>
+        <item>@drawable/ticket_1</item>
+        <item>@drawable/mib_1</item>
+        <item>@drawable/addams_1</item>
+        <item>@drawable/breaking_bad_1</item>
     </integer-array>
 </resources>

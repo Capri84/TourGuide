@@ -25,14 +25,14 @@ public class Data {
 
     static ArrayList<Place> getQuestsList(Context context) {
         ArrayList<Place> places = new ArrayList<>();
-        places.add(new Place(context.getString(R.string.divergent), R.drawable.ic_launcher_background));
-        places.add(new Place(context.getString(R.string.superhero), R.drawable.ic_launcher_background));
-        places.add(new Place(context.getString(R.string.houdini), R.drawable.ic_launcher_background));
-        places.add(new Place(context.getString(R.string.pharao), R.drawable.ic_launcher_background));
-        places.add(new Place(context.getString(R.string.one_way_ticket), R.drawable.ic_launcher_background));
-        places.add(new Place(context.getString(R.string.mib), R.drawable.ic_launcher_background));
-        places.add(new Place(context.getString(R.string.addams_family), R.drawable.ic_launcher_background));
-        places.add(new Place(context.getString(R.string.breaking_bad), R.drawable.ic_launcher_background));
+        places.add(new Place(context.getString(R.string.divergent), R.drawable.divergent_1));
+        places.add(new Place(context.getString(R.string.superhero), R.drawable.superheroes_1));
+        places.add(new Place(context.getString(R.string.houdini), R.drawable.houdini_1));
+        places.add(new Place(context.getString(R.string.pharao), R.drawable.pharao_1));
+        places.add(new Place(context.getString(R.string.one_way_ticket), R.drawable.ticket_1));
+        places.add(new Place(context.getString(R.string.mib), R.drawable.mib_1));
+        places.add(new Place(context.getString(R.string.addams_family), R.drawable.addams_1));
+        places.add(new Place(context.getString(R.string.breaking_bad), R.drawable.breaking_bad_1));
         return places;
     }
 

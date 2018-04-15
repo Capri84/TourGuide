@@ -56,13 +56,24 @@ public class PlaceInfoActivity extends AppCompatActivity implements View.OnClick
 
     private void fillArraysQuizzes() {
         Resources res = getResources();
-        pictures = res.obtainTypedArray(R.array.place_photos);
+        pictures = res.obtainTypedArray(R.array.quizzes_photos);
         placeInfo = new ArrayList<>(Arrays.asList(getResources().getStringArray(R.array.quizzes_info)));
         phone = new ArrayList<>(Arrays.asList(getResources().getStringArray(R.array.quizzes_phones)));
         latitudes = new ArrayList<>(Arrays.asList(getResources().getStringArray(R.array.quizzes_latitudes)));
         longitudes = new ArrayList<>(Arrays.asList(getResources().getStringArray(R.array.quizzes_longitudes)));
         site = new ArrayList<>(Arrays.asList(getResources().getStringArray(R.array.quizzes_sites)));
         labels = new ArrayList<>(Arrays.asList(getResources().getStringArray(R.array.quizzes_labels)));
+    }
+
+    private void fillArraysQuests() {
+        Resources res = getResources();
+        pictures = res.obtainTypedArray(R.array.quests_photos);
+        placeInfo = new ArrayList<>(Arrays.asList(getResources().getStringArray(R.array.quests_info)));
+        phone = new ArrayList<>(Arrays.asList(getResources().getStringArray(R.array.quests_phones)));
+        latitudes = new ArrayList<>(Arrays.asList(getResources().getStringArray(R.array.quests_latitudes)));
+        longitudes = new ArrayList<>(Arrays.asList(getResources().getStringArray(R.array.quests_longitudes)));
+        site = new ArrayList<>(Arrays.asList(getResources().getStringArray(R.array.quests_sites)));
+        labels = new ArrayList<>(Arrays.asList(getResources().getStringArray(R.array.quests_labels)));
     }
 
     private void setPlaceData() {
@@ -72,9 +83,9 @@ public class PlaceInfoActivity extends AppCompatActivity implements View.OnClick
             tvPlaceAbout.setText(placeInfo.get(position));
         }
         if (MainActivity.currentPage == 1) {
-            fillArraysQuizzes();
-            imgPlaceInfo.setImageResource(R.drawable.ic_account_balance_wallet_blue_grey_700_24dp);
-            tvPlaceAbout.setText("Quests");
+            fillArraysQuests();
+            imgPlaceInfo.setImageResource(pictures.getResourceId(position, -1));
+            tvPlaceAbout.setText(placeInfo.get(position));
         }
         if (MainActivity.currentPage == 2) {
             fillArraysQuizzes();
