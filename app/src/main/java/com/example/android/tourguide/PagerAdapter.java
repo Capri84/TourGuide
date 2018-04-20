@@ -40,7 +40,7 @@ public class PagerAdapter extends FragmentPagerAdapter{
             case 2:
                 return context.getString(R.string.museums);
             case 3:
-                return context.getString(R.string.theaters);
+                return context.getString(R.string.theatres);
             default:
                 return null;
         }

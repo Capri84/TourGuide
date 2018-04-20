@@ -24,7 +24,7 @@
     <string name="breaking_bad">The Breaking Bad</string>
 
     <!-- List of Museums -->
-    <string name="tretyakov_gallery">The Tretyakov Gallery</string>
+    <string name="tretyakov_gallery">The State Tretyakov Gallery</string>
     <string name="history_museum">State Historical Museum</string>
     <string name="pushkin_museum">The A.S. Pushkin\'s State Museum of Fine Arts.</string>
     <string name="basil_cathedral">St. Basil\'s Cathedral</string>
@@ -33,21 +33,21 @@
     <string name="polytechnical_museum">Polytechnical Museum</string>
     <string name="cosmonautics_museum">Memorial Museum of Cosmonautics</string>
 
-    <!-- List of Theaters -->
-    <string name="bolshoy_theater">The Bolshoy Theater</string>
-    <string name="maliy_theater">The Maliy Theater</string>
-    <string name="sovremennik_theater">The Sovremennik Theater</string>
-    <string name="lenkom_theater">The Lenkom Theater</string>
-    <string name="satiry_theater">The Theater of Satire</string>
-    <string name="mossoveta_theater">The Mossovet\' Theater</string>
-    <string name="mayakovsky_theater">The Mayakovsky Theater</string>
-    <string name="vakhtangova_theater">The Vakhtangov\'s Theater</string>
+    <!-- List of theatres -->
+    <string name="bolshoy_theatre">The Bolshoi theatre</string>
+    <string name="maliy_theatre">The Maly theatre</string>
+    <string name="sovremennik_theatre">Moscow Sovremennik theatre</string>
+    <string name="lenkom_theatre">The Lenkom theatre</string>
+    <string name="satiry_theatre">The Moscow Satire Theatre</string>
+    <string name="mossoveta_theatre">The Mossovet State Academic Theatre </string>
+    <string name="mayakovsky_theatre">The Mayakovsky theatre</string>
+    <string name="vakhtangova_theatre">The Vakhtangov\'s theatre</string>
 
     <!-- TabNames -->
     <string name="quizzes">Quizzes</string>
     <string name="quests">Quests</string>
     <string name="museums">Museums</string>
-    <string name="theaters">Theaters</string>
+    <string name="theatres">Theatres</string>
 
     <!-- Quizzes info -->
     <string-array name="quizzes_info">
@@ -280,5 +280,263 @@ Join \"Izvilium\" now!</item>
         <item>@drawable/mib_1</item>
         <item>@drawable/addams_1</item>
         <item>@drawable/breaking_bad_1</item>
+    </integer-array>
+
+    <!-- Museums info -->
+    <string-array name="museums_info">
+        <item>The State Tretyakov Gallery is the main museum of Russian national art,
+            reflecting its unique contribution to world culture. It is a hospitable museum that is
+            known for its rich collection and variety of presented ideas.</item>
+        <item>The State Historical Museum of Russia is a museum of Russian history wedged between
+            Red Square and Manege Square in Moscow. Its exhibitions range from relics of prehistoric
+            tribes that lived on the territory of present-day Russia, through priceless artworks
+            acquired by members of the Romanov dynasty. The total number of objects in the museum\'s
+            collection comes to millions.</item>
+        <item>The Pushkin State Museum of Fine Arts is a museum complex that is currently in possession
+            of one of the largest world art collections from Ancient Egypt and Greece to our days.
+            Today the holdings of the museum contain around 700 000 art works of different epochs.
+            The jewel of the collection is French art of the XIX – XX centuries  – one of the most
+            famous collections of Impressionist and Post-Impressionist paintings in the world.</item>
+        <item>The Cathedral of Vasily the Blessed, commonly known as Saint Basil\'s Cathedral, is
+            a church in Red Square in Moscow, Russia. The building, now a museum, is officially
+            known as the Cathedral of the Intercession of the Most Holy Theotokos on the Moat
+            or Pokrovsky Cathedral. It was built from 1555–61 on orders from Ivan the Terrible
+            and commemorates the capture of Kazan and Astrakhan. It was the city\'s tallest building
+            until the completion of the Ivan the Great Bell Tower in 1600.</item>
+        <item>The Moscow Kremlin is considered to be a symbol of the Russian statehood.
+            The Kremlin hill became the main sightseeing of Moscow. The architectural ensemble \"The
+            Moscow Kremlin and Red Square\" is included into the UNESCO List of World Cultural and
+            Natural Heritage. The Moscow Kremlin State Historical and Cultural Museum and Heritage Site
+            incorporates the Armoury Chamber and the architectural ensemble of the Cathedral Square,
+            consisting of the Assumption, Archangel and Annunciation cathedrals, the Church of
+            Laying Our Lady\'s Holy Robe, the Patriarch\'s Palace with the Twelve Apostles\' Church
+            and the Ivan the Great Bell-Tower complex, as well as the exhibition halls
+            in the Assumption Belfry and in the One-Pillar Chamber of the Patriarch\’s Palace.</item>
+        <item>The Diamond Fund exhibition was opened in 1967 on the territory of the Moscow Kremlin.
+            Treasures of the Diamond Fund of the Russian Federation represent a collection of unique
+            nuggets of precious metals and precious stones of historical and artistic value, as well
+            as a collection of unique jewelry and other items made of precious metals and precious
+            stones. The collection is undoubtedly one of the most significant and largest collections
+            in the world. It is the most famous part of the State Fund treasury.</item>
+        <item>The Polytechnic Museum, founded in 1872, is one of the oldest science and technology
+            museums in the world. The Museum aims to draw the audience\'s interest to knowledge and
+            achievements of the human mind, inspire youth and support young professionals. Today,
+            the Museum\'s historical building is being renovated, and the conception of the Museum
+            itself is changing as well: it goes beyond the object collection, lectures and exhibition
+            tours, promoting its activities as a platform for scientific discussions, educational
+            projects and intellectual efforts.</item>
+        <item>The Memorial Museum of Cosmonautics or Memorial Museum of Space Exploration is a museum,
+            dedicated to space exploration. Museum exposition gives a retrospect on how Soviet space
+            science evolved starting from first man-made satellites subsequently followed by the first
+            manned space flight, first space walks, Moon exploration programs, Solar system exploration
+            programs and international space research programs. The museum contains a wide variety
+            of Soviet and Russian space-related exhibits and models which explore the history of flight,
+            astronomy, space exploration, space technology and space in the arts. According to the
+            Russian tourist board, the museum\'s collection holds approximately 85,000 different items
+            and receives approximately 300,000 visitors yearly.</item>
+    </string-array>
+
+    <!-- Museums phones -->
+    <string-array name="museums_phones">
+        <item>+74959570727</item> <!-- The State Tretyakov Gallery -->
+        <item>+74956924019</item> <!-- The State Historical Museum -->
+        <item>+74956099520</item> <!-- The Pushkin State Museum of Fine Arts -->
+        <item>+74956983304</item> <!-- The St. Basil\'s Cathedral -->
+        <item>+74956970349</item> <!-- The Kremlin -->
+        <item>+74956292036</item> <!-- The Diamond Fund of Russia -->
+        <item>+74957305438</item> <!-- The Polytechnic Museum -->
+        <item>+74997502300</item> <!-- The Memorial Museum of Cosmonautics -->
+    </string-array>
+
+    <!-- Museums addresses: latitudes -->
+    <string-array name="museums_latitudes">
+        <item>55.7416991</item> <!-- The State Tretyakov Gallery -->
+        <item>55.7537523</item> <!-- The State Historical Museum -->
+        <item>55.7475286</item> <!-- The Pushkin State Museum of Fine Arts -->
+        <item>55.752486</item> <!-- The St. Basil\'s Cathedral -->
+        <item>55.7520233</item> <!-- The Kremlin -->
+        <item>55.7520233</item> <!-- The Diamond Fund of Russia -->
+        <item>55.7579903</item> <!-- The Polytechnic Museum -->
+        <item>55.8194827</item> <!-- The Memorial Museum of Cosmonautics -->
+    </string-array>
+
+    <!-- Museums addresses: longitudes -->
+    <string-array name="museums_longitudes">
+        <item>37.6207455</item> <!-- The State Tretyakov Gallery -->
+        <item>37.6225169</item> <!-- The State Historical Museum -->
+        <item>37.6050241</item> <!-- The Pushkin State Museum of Fine Arts -->
+        <item>37.6229991</item> <!-- The St. Basil\'s Cathedral -->
+        <item>37.6174994</item> <!-- The Kremlin -->
+        <item>37.6174994</item> <!-- The Diamond Fund of Russia -->
+        <item>37.6304326</item> <!-- The Polytechnic Museum -->
+        <item>37.6389596</item> <!-- The Memorial Museum of Cosmonautics -->
+    </string-array>
+
+    <!-- Museums map labels -->
+    <string-array name="museums_labels">
+        <item>The State Tretyakov Gallery</item>
+        <item>The State Historical Museum</item>
+        <item>The Pushkin State Museum of Fine Arts</item>
+        <item>The St. Basil\'s Cathedral</item>
+        <item>The Kremlin</item>
+        <item>The Diamond Fund of Russia</item>
+        <item>The Polytechnic Museum</item>
+        <item>The Memorial Museum of Cosmonautics</item>
+    </string-array>
+
+    <!-- Museums sites -->
+    <string-array name="museums_sites">
+        <item>https://www.tretyakovgallery.ru/</item>
+        <item>http://www.shm.ru/</item>
+        <item>http://www.arts-museum.ru/</item>
+        <item>http://shm.ru/museum/hvb/</item>
+        <item>http://www.kreml.ru/</item>
+        <item>http://www.gokhran.ru/en/diamond-fund/index.phtml</item>
+        <item>https://polymus.ru/</item>
+        <item>http://www.kosmo-museum.ru/</item>
+    </string-array>
+
+    <!-- Museums photo id -->
+    <integer-array name="museums_photos">
+        <item>@drawable/tretyakov_1</item>
+        <item>@drawable/historical_1</item>
+        <item>@drawable/pushkin_museum_1</item>
+        <item>@drawable/basil_1</item>
+        <item>@drawable/kremlin_1</item>
+        <item>@drawable/diamond_1</item>
+        <item>@drawable/polytech_1</item>
+        <item>@drawable/space_1</item>
+    </integer-array>
+
+    <!-- Theatres info -->
+    <string-array name="theatres_info">
+        <item>The Bolshoi Theatre is a historic theatre, originally designed by architect Joseph Bové,
+            which holds ballet and opera performances. Before the October Revolution it was a part
+            of the Imperial Theatres of the Russian Empire along with Maly Theatre in Moscow and
+            a few theatres in Saint Petersburg. The Bolshoi Theatre is a symbol of Russia for all time.
+            It was awarded this honor due to the major contribution it made to the history of
+            the Russian performing arts. This history is on-going and today Bolshoi Theatre artists
+            continue to contribute to it many bright pages.</item>
+        <item>Maly Theatre (literally Small Theatre as opposed to nearby Bolshoi, or Grand, opera theatre)
+            is a theatre, principally associated with the production of plays. Established in 1806
+            and operating on its present site on the Theatre Square since 1824, the theatre traces
+            its history to the Moscow University drama company, established in 1756. In the 19th
+            century, Maly was \"universally recognized in Russia as the leading dramatic theatre
+            of the century\", and was the home stage for Mikhail Shchepkin and Maria Yermolova.
+            40 of Alexander Ostrovsky\'s 54 plays premiered at Maly, and the theatre was known as
+            The House of Ostrovsky. The Maly Theatre in Moscow and Alexandrinsky Theatre in
+            Saint Petersburg \"to a great extent determined the development of Russian theatre during
+            the 19th and 20th century\". Maly Theatre positions itself as a traditional drama theatre
+            that produces classical heritage plays.</item>
+        <item>Moscow Sovremennik theatre is a theatre company in Moscow founded in 1956. \"Sovremennik\"
+            means \"Contemporary\". The Sovremennik theatre was founded by a group of young Soviet
+            actors during the Khrushchev Thaw. Among the founders, all of whom graduated from
+            Moscow Art Theatre School-Studio, were Oleg Yefremov, Galina Volchek, Igor Kvasha,
+            Liliya Tolmachyova, Yevgeniy Yevstigneyev and Oleg Tabakov. The theatre\'s first artistic
+            director, Oleg Yefremov, left in 1970. Since then the theatre is led by Galina Volchek.</item>
+        <item>Lenkom theatre is the official name of what was once known as the Moscow State Theatre
+            named after Lenin\'s Komsomol. Designed by Illarion Ivanov-Schitz, it was built in 1907−1909
+            to house a Merchant\'s Club, and was home to many theatrical and musical performances.
+            Over its 80-year career, Lenkom has been a forerunner of new, fresh and experimental
+            theatre in the Soviet Union, and now Russia.</item>
+        <item>The Moscow Theater of Satire was opened on October 1, 1924. In 2015, the Satire theater
+            was recognized as one of the most visited Moscow theaters: the halls were filled almost
+            by 90%, the number of viewers exceeded 2.5 million.</item>
+        <item>Mossovet State Academic Theatre is one of the oldest theatres of Moscow, opened in 1923.
+        The theatre progressed greatly during the reign of actor and director Yury Zavadsky
+            (the protégé of Konstantin Stanislavski) which started in 1940 and lasted up to 1977.
+        In 1964 the theatre for its artistic achievements was given the Academic Theatre status.
+        The theatre\'s Main scene features mostly classical adaptations, along with productions
+            of contemporary directors.</item>
+        <item>The Mayakovsky theatre has a long history dating back to 1920. Its stage saw world-famous
+            actors such as Sarah Bernardt, Eleonare Duse and Ernst von Possart, and because of their
+            presence it was also known as the \"International\" theatre. The theatre remains one of
+            Moscow\’s favorite ones and its actors are among the most famous in Moscow and Russia
+            for that matter. The Mayakovsky theatre stages classical pieces from Gogol, Dostoevsky
+            and Chekhov.</item>
+        <item>A large colonnaded building, loved by many generations of Muscovites, is located in the
+            center of Arbat (Old) Street. This building is owned by the remarkable Vakhtangov Theatre.
+            It has become not only the physical node but also the cultural hub of the central
+            heritage district of Moscow. The work of this Theatre is a combination of brilliant form
+            and deep content. Here you can experience a variety of genres, from classic tragedy to
+            mischievous vaudeville. In all these genres you will witness powerful Russian actors.
+        The Vakhtangov Theatre has conquered the hearts of millions of people in Russia, Paris,
+            London, Vienna, Venice, Athens, Stockholm, Prague, Warsaw, Berlin, Budapest, Madrid,
+            and many other foreign cities. The Vakhtangov Theater is already 95 years old.
+            The Theatre\’s secret lies in the spirit of its young actors and stage-directors
+            (both well-established and new-comers), its ambition to deal with complex moral issues,
+            and its desire to awaken warm human feelings in the audience.</item>
+    </string-array>
+
+    <!-- Theatres phones -->
+    <string-array name="theatres_phones">
+        <item>+74954555555</item> <!-- The Bolshoy theatre -->
+        <item>+74956244046</item> <!-- The Maly theatre -->
+        <item>+74956216473</item> <!-- The Sovremennik theatre -->
+        <item>+74956999668</item> <!-- The Lenkom theatre -->
+        <item>+74956996305</item> <!-- The theatre of Satire -->
+        <item>+74951500120</item> <!-- The Mossovet theatre -->
+        <item>+74956904658</item> <!-- The Mayakovsky theatre -->
+        <item>+74992411679</item> <!-- The Vakhtangov theatre -->
+    </string-array>
+
+    <!-- Theatres addresses: latitudes -->
+    <string-array name="theatres_latitudes">
+        <item>55.7602522</item> <!-- The Bolshoy theatre -->
+        <item>55.759742</item> <!-- The Maly theatre -->
+        <item>55.7616388</item> <!-- The Sovremennik theatre -->
+        <item>55.767794</item> <!-- The Lenkom theatre -->
+        <item>55.768374</item> <!-- The theatre of Satire -->
+        <item>55.768088</item> <!-- The Mossovet theatre -->
+        <item>55.7570411</item> <!-- The Mayakovsky theatre -->
+        <item>55.7497073</item> <!-- The Vakhtangov theatre -->
+    </string-array>
+
+    <!-- Theatres addresses: longitudes -->
+    <string-array name="theatres_longitudes">
+        <item>37.618605</item> <!-- The Bolshoy theatre -->
+        <item>37.6205955</item> <!-- The Maly theatre -->
+        <item>37.645257</item> <!-- The Sovremennik theatre -->
+        <item>37.6066509</item> <!-- The Lenkom theatre -->
+        <item>37.595533</item> <!-- The theatre of Satire -->
+        <item>37.596738</item> <!-- The Mossovet theatre -->
+        <item>37.6009753</item> <!-- The Mayakovsky theatre -->
+        <item>37.5914189</item> <!-- The Vakhtangov theatre -->
+    </string-array>
+
+    <!-- Theatres map labels -->
+    <string-array name="theatres_labels">
+        <item>The Bolshoi theatre</item>
+        <item>The Maly theatre</item>
+        <item>Moscow Sovremennik theatre</item>
+        <item>Lenkom theatre</item>
+        <item>Moscow Satire Theatre</item>
+        <item>Mossovet State Academic Theatre </item>
+        <item>Mayakovsky Theater</item>
+        <item>Vakhtangov Theatre</item>
+    </string-array>
+
+    <!-- Theatres sites -->
+    <string-array name="theatres_sites">
+        <item>https://www.bolshoi.ru/en/</item>
+        <item>https://www.maly.ru/en</item>
+        <item>https://sovremennik.ru/</item>
+        <item>https://lenkom.ru/</item>
+        <item>http://satire.ru/</item>
+        <item>http://mossoveta.ru/</item>
+        <item>http://www.mayakovsky.ru/</item>
+        <item>http://www.vakhtangov.ru/en</item>
+    </string-array>
+
+    <!-- Theatres photo id -->
+    <integer-array name="theatres_photos">
+        <item>@drawable/bolshoi_1</item>
+        <item>@drawable/maly_1</item>
+        <item>@drawable/sovremennik_1</item>
+        <item>@drawable/lenkom_1</item>
+        <item>@drawable/satire_1</item>
+        <item>@drawable/mossovet_1</item>
+        <item>@drawable/mayakovsky_1</item>
+        <item>@drawable/vakhtangov_1</item>
     </integer-array>
 </resources>

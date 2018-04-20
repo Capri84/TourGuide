@@ -76,6 +76,28 @@ public class PlaceInfoActivity extends AppCompatActivity implements View.OnClick
         labels = new ArrayList<>(Arrays.asList(getResources().getStringArray(R.array.quests_labels)));
     }
 
+    private void fillArraysMuseums() {
+        Resources res = getResources();
+        pictures = res.obtainTypedArray(R.array.museums_photos);
+        placeInfo = new ArrayList<>(Arrays.asList(getResources().getStringArray(R.array.museums_info)));
+        phone = new ArrayList<>(Arrays.asList(getResources().getStringArray(R.array.museums_phones)));
+        latitudes = new ArrayList<>(Arrays.asList(getResources().getStringArray(R.array.museums_latitudes)));
+        longitudes = new ArrayList<>(Arrays.asList(getResources().getStringArray(R.array.museums_longitudes)));
+        site = new ArrayList<>(Arrays.asList(getResources().getStringArray(R.array.museums_sites)));
+        labels = new ArrayList<>(Arrays.asList(getResources().getStringArray(R.array.museums_labels)));
+    }
+
+    private void fillArraysTheatres() {
+        Resources res = getResources();
+        pictures = res.obtainTypedArray(R.array.theatres_photos);
+        placeInfo = new ArrayList<>(Arrays.asList(getResources().getStringArray(R.array.theatres_info)));
+        phone = new ArrayList<>(Arrays.asList(getResources().getStringArray(R.array.theatres_phones)));
+        latitudes = new ArrayList<>(Arrays.asList(getResources().getStringArray(R.array.theatres_latitudes)));
+        longitudes = new ArrayList<>(Arrays.asList(getResources().getStringArray(R.array.theatres_longitudes)));
+        site = new ArrayList<>(Arrays.asList(getResources().getStringArray(R.array.theatres_sites)));
+        labels = new ArrayList<>(Arrays.asList(getResources().getStringArray(R.array.theatres_labels)));
+    }
+
     private void setPlaceData() {
         if (MainActivity.currentPage == 0) {
             fillArraysQuizzes();
@@ -88,14 +110,14 @@ public class PlaceInfoActivity extends AppCompatActivity implements View.OnClick
             tvPlaceAbout.setText(placeInfo.get(position));
         }
         if (MainActivity.currentPage == 2) {
-            fillArraysQuizzes();
-            imgPlaceInfo.setImageResource(R.drawable.ic_tag_faces_blue_grey_700_24dp);
-            tvPlaceAbout.setText("Museums");
+            fillArraysMuseums();
+            imgPlaceInfo.setImageResource(pictures.getResourceId(position, -1));
+            tvPlaceAbout.setText(placeInfo.get(position));
         }
         if (MainActivity.currentPage == 3) {
-            fillArraysQuizzes();
-            imgPlaceInfo.setImageResource(R.drawable.ic_launcher_background);
-            tvPlaceAbout.setText("Theaters");
+            fillArraysTheatres();
+            imgPlaceInfo.setImageResource(pictures.getResourceId(position, -1));
+            tvPlaceAbout.setText(placeInfo.get(position));
         }
     }
 

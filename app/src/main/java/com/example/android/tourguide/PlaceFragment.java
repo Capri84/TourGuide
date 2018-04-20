@@ -69,7 +69,7 @@ public class PlaceFragment extends Fragment {
             return Data.getMuseumsList(getContext());
         }
         if (page == 3) {
-            return Data.getTheatersList(getContext());
+            return Data.getTheatresList(getContext());
         }
         return null;
     }
