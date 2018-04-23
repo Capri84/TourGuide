@@ -10,6 +10,7 @@ import java.util.ArrayList;
 
 public class Data {
 
+    // Filling the list of quizzes
     static ArrayList<Place> getQuizzesList(Context context) {
         ArrayList<Place> places = new ArrayList<>();
         places.add(new Place(context.getString(R.string.club_60_sec), R.drawable.club60secs_1));
@@ -23,6 +24,7 @@ public class Data {
         return places;
     }
 
+    // Filling the list of quests
     static ArrayList<Place> getQuestsList(Context context) {
         ArrayList<Place> places = new ArrayList<>();
         places.add(new Place(context.getString(R.string.divergent), R.drawable.divergent_1));
@@ -36,6 +38,7 @@ public class Data {
         return places;
     }
 
+    // Filling the list of museums
     static ArrayList<Place> getMuseumsList(Context context) {
         ArrayList<Place> places = new ArrayList<>();
         places.add(new Place(context.getString(R.string.tretyakov_gallery), R.drawable.tretyakov_1));
@@ -49,6 +52,7 @@ public class Data {
         return places;
     }
 
+    // Filling the list of theatres
     static ArrayList<Place> getTheatresList(Context context) {
         ArrayList<Place> places = new ArrayList<>();
         places.add(new Place(context.getString(R.string.bolshoy_theatre), R.drawable.bolshoi_1));

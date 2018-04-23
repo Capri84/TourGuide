@@ -3,15 +3,12 @@ package com.example.android.tourguide;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ListView;
-import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -42,16 +39,16 @@ public class PlaceFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        RecyclerView recyclerView = (RecyclerView) inflater.inflate(R.layout.places_list, container,false);
+        RecyclerView recyclerView = (RecyclerView) inflater.inflate(R.layout.places_list, container, false);
 
-        // use this setting to improve performance if you know that changes
-        // in content do not change the layout size of the RecyclerView
+        /* use this setting to improve performance if you know that changes
+           in content do not change the layout size of the RecyclerView */
         recyclerView.setHasFixedSize(true);
 
         // use a linear layout manager
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getActivity());
         recyclerView.setLayoutManager(layoutManager);
-        // specify an adapter (see also next example)
+        // specify an adapter
         PlaceAdapter adapter = new PlaceAdapter(getItemPlaceList(page));
         recyclerView = recyclerView.findViewById(R.id.list);
         recyclerView.setAdapter(adapter);

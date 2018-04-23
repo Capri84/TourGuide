@@ -1,19 +1,14 @@
 package com.example.android.tourguide;
 
-import android.content.Context;
 import android.content.Intent;
-import android.os.Bundle;
-import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -41,12 +36,14 @@ public class PlaceAdapter extends RecyclerView.Adapter<PlaceAdapter.ViewHolder> 
         Place currentPlace = places.get(position);
         holder.placeImage.setImageResource(currentPlace.getmImageResourceId());
         holder.placeName.setText(currentPlace.getmPlaceName());
+        // Getting current place name to use in Share intent
+        final String currentPlaceName = currentPlace.getmPlaceName();
         holder.shareButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent shareIntent = new Intent(Intent.ACTION_SEND);
                 shareIntent.setType("text/plain");
-                shareIntent.putExtra(Intent.EXTRA_TEXT, "Share" + " " + holder.placeName + " " + "with me!");
+                shareIntent.putExtra(Intent.EXTRA_TEXT, "Join me at" + " " + currentPlaceName + "!");
                 shareIntent.putExtra(Intent.EXTRA_SUBJECT, "Visit this place!");
                 if (shareIntent.resolveActivity(v.getContext().getPackageManager()) != null) {
                     v.getContext().startActivity(shareIntent);

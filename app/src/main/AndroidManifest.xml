@@ -18,7 +18,6 @@
         </activity>
         <activity
             android:name=".PlaceInfoActivity"
-            android:label="@string/popup_activity_label"
-            android:theme="@style/Theme.AppCompat.Dialog.Alert" />
+            android:theme="@style/Theme.AppCompat.Light.Dialog.Alert" />
     </application>
 </manifest>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -10,9 +9,9 @@
     <ImageView
         android:id="@+id/img_place_info"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_height="wrap_content"
         android:adjustViewBounds="true"
+        android:minHeight="@dimen/min_height"
         android:scaleType="centerCrop"
         tools:src="@mipmap/ic_launcher" />
 
@@ -26,32 +25,41 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:src="@drawable/ic_tag_faces_blue_grey_700_24dp" />
+            android:background="?android:selectableItemBackground"
+            android:padding="@dimen/activity_place_info_btn_padding"
+            android:src="@drawable/ic_local_phone_deep_orange_a200_36dp" />
 
         <ImageButton
             android:id="@+id/img_btn_map"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:src="@drawable/ic_account_balance_wallet_blue_grey_700_24dp" />
+            android:background="?android:selectableItemBackground"
+            android:padding="@dimen/activity_place_info_btn_padding"
+            android:src="@drawable/ic_map_deep_orange_a200_36dp" />
 
         <ImageButton
             android:id="@+id/img_btn_site"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:src="@drawable/ic_tag_faces_blue_grey_700_24dp" />
-
+            android:background="?android:selectableItemBackground"
+            android:padding="@dimen/activity_place_info_btn_padding"
+            android:src="@drawable/ic_home_deep_orange_a200_36dp" />
     </LinearLayout>
-<ScrollView
-    android:layout_width="match_parent"
-    android:layout_height="0dp"
-    android:layout_weight="1"
-    android:fillViewport="true">
-    <TextView
-        android:id="@+id/textView"
+
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:text="TextView" />
-</ScrollView>
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:paddingBottom="@dimen/activity_place_info_btn_padding">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/activity_place_info_btn_padding"
+            android:paddingRight="@dimen/activity_place_info_btn_padding"
+            tools:text="TextView" />
+    </ScrollView>
 </LinearLayout>
